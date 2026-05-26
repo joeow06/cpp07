@@ -73,5 +73,6 @@ int main(void)
 	std::cout << std::endl;
 
 	// const reference test
-	iter(array2, 6, &printChar);
+	const char array4[4] = {'a', 'b', 'c', 'd'};
+	iter(array4, 6, &printChar);
 }
